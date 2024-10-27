@@ -1,4 +1,4 @@
-import Phone from '../assets/securityPhone.png';
+import Phone from '../assets/securityphone.png';
 import Image from '../assets/image19.png';
 import Fire from '../assets/fire.png';
 import Arrow from '../assets/arrow-right.png'
@@ -12,7 +12,7 @@ export default function Security() {
   <div className=" pl-[6rem] relative w-1/2 flex justify-center md:justify-start">
     {/* First Image */}
     <img src={Phone} alt="phone" className="absolute top-[-12rem] w-[14rem] lg:w-[16rem] object-contain" />
-    {/* Second Image Positioned Directly Over First */}
+    
     <img src={Image} alt="stacked image" className="absolute top-[6rem] left-[15rem] w-[6rem] lg:w-[14rem]  object-contain" />
   </div>
 
