@@ -13,7 +13,7 @@ export default function Footer() {
     return (
         <div className='bg-white'>
 <div className="bg-custom-image bg-custom-lightgray bg-custom-position bg-custom-size bg-no-repeat h-[400px] flex items-center justify-center text-white mx-[6rem] my-[10rem] rounded-md">
-  <div className="flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-8 px-4 md:px-8">
+  <div className="flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-8 px-4 md:px-4">
     {/* Text Section */}
     <div className="text-center md:text-left max-w-lg space-y-4">
       <h1 className="text-3xl md:text-4xl font-bold">ARE YOU READY TO START?</h1>
@@ -42,7 +42,7 @@ export default function Footer() {
     {/* Image Section */}
     <div className="relative flex items-center md:ml-8">
       <img src={Mob1} alt="mob1" className="relative w-[150px] md:w-[200px] lg:w-[250px]" />
-      <img src={Mob2} alt="mob2" className="absolute top-[4.5rem] left-[6rem] w-[100px] md:w-[150px] lg:w-[200px]" />
+      <img src={Mob2} alt="mob2" className="absolute top-[3rem] left-[-2rem] w-[100px] md:w-[150px] lg:h-[21rem] lg:w-[200px]" />
     </div>
   </div>
 </div>

@@ -16,40 +16,37 @@ export default function Financial() {
     <>
       <div className="  mb-12 mx-[6rem]">
       <div className="text-center mb-6">
-  {/* Centered SERVICES Tag */}
+  
   <p className="text-xs font-bold p-1 flex items-center justify-center bg-gray-100 rounded-lg mx-auto  w-max">
     <img src={Fire} alt="fire" className="w-4 h-4 mr-1" /> SERVICES
   </p>
 
-  {/* Centered Heading */}
-  <h1 className="font-bold text-xl mt-2">
-    CAN HELP YOU ACHIEVE FINANCIAL SUCCESS
+  
+  <h1 className="font-bold text-xl lg:text-3xl mt-2">
+    CAN HELP YOU ACHIEVE <br/>FINANCIAL SUCCESS
   </h1>
 </div>
 
-{/* Main Content */}
 <div className="flex flex-col md:flex-row bg-gray-200 p-6 rounded-lg items-center justify-center">
-  {/* Left Side - Stacked Images */}
+  
   <div className="relative w-1/2 md:w-[45%] flex justify-center md:justify-start">
-    {/* Mockup Image */}
-    <img src={Mockup} alt="mockup" className="w-[8rem] md:w-[10rem] h-auto absolute" />
-    {/* Mobile Image, positioned over Mockup */}
-    <img src={Mobile} alt="mobile" className="w-[6rem] md:w-[8rem] h-auto relative top-12 left-12" />
+    <img src={Mockup} alt="mockup" className="w-[8rem] md:w-[14rem] h-auto  absolute" />
+    <img src={Mobile} alt="mobile" className="w-[6rem] md:w-[8rem] h-auto relative top-6 left-[7rem]" />
   </div>
 
-  {/* Right Side - Icon and Text */}
+  
   <div className="w-full md:w-[45%] flex flex-col items-center md:items-start text-center md:text-left mt-6 md:mt-0">
-    {/* World Icon */}
+  
     <div className="bg-green-100 p-2 rounded-full mb-2">
       <img src={World} alt="world" className="w-5 h-5" />
     </div>
-    {/* Text */}
-    <h2 className="font-semibold text-lg">Transfers Across The Globe Are Free</h2>
+    
+    <h2 className="font-bold text-lg lg:text-2xl">Transfers Across The<br/> Globe Are Free</h2>
   </div>
 </div>
 </div>
 
-      <div className="flex flex-col md:flex-row gap-6 px-[6rem] ">
+      <div className="flex flex-col md:flex-row gap-6 px-[6rem] mt-[-2.3rem]">
   {/* Card Section 1 */}
   <div className="bg-gray-200 p-6 rounded-lg flex-1">
     {/* Icon with rounded top */}
@@ -107,7 +104,7 @@ export default function Financial() {
 </div>
 
 
-    <div className="flex flex-col md:flex-row items-stretch justify-center gap-4 my-10 px-[6rem]">
+    <div className="flex flex-col md:flex-row items-stretch justify-center gap-4 my-5 px-[6rem]">
         
   {/* Dedication Section */}
   <div className="bg-yellow-100 p-6 rounded-lg w-full  flex flex-col justify-between text-center md:text-left h-[200px]">
@@ -119,41 +116,36 @@ export default function Financial() {
     </p>
   </div>
 
-  {/* Hold Money Section */}
   <div className="bg-gray-200 p-6 rounded-lg w-full relative flex flex-col h-[200px]">
-  {/* Icon and Text Section */}
   <div className="flex flex-col items-center md:items-start">
-    {/* Dollar Icon */}
     <div className="bg-green-100 p-2 rounded-full w-10 h-10 flex items-center justify-center">
       <img src={Dollar} alt="dollar icon" className="w-5 h-5" />
     </div>
 
-    {/* Text */}
-    <p className="text-xl font-semibold mt-2 text-center md:text-left">
+    <p className="text-sm font-semibold mt-2 text-center ">
       Hold Money In <br/>30+ Currencies
     </p>
+    <div className="absolute top-0 right-0 mt-6 ">
+    <img src={Expense} alt="expense image" className="w-20 h-[11rem]" />
+  </div>
   </div>
 
-  {/* Expense Image aligned to the right */}
-  <div className="absolute top-0 right-0 mt-6 mr-6">
-    <img src={Expense} alt="expense image" className="w-20 h-50" />
-  </div>
+
 </div>
 
 
 
-  {/* Services Page Section */}
+ 
   <div className="bg-green-200 p-6 rounded-lg w-full flex flex-col justify-between text-center md:text-left h-[200px]">
     <h1 className="text-2xl font-bold text-center my-auto text-white">Visit Our Services Page</h1>
   </div>
 </div>
 
-{/* Centered View More Button */}
-<div className="flex justify-center my-6">
+
+<div className="flex justify-center ">
   <button className="px-6 py-2 border border-0.5 border-green-500 bg-white font-semibold rounded-3xl flex items-center space-x-2 relative z-10">
     View More
 
-    {/* Arrow Image with White Background */}
     <div className="bg-green-500 rounded-full p-2 absolute right-[-1rem] top-1/2 transform -translate-y-1/2">
       <img src={Arrow} alt="arrow icon" className="w-4 h-4" />
     </div>
