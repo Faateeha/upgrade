@@ -38,6 +38,7 @@ export default {
       },
       backgroundImage: {
         'custom-image': "url('../src/assets/bg.png')",
+        'custom-image2': "url('../src/assets/bg-pattern.png')",
       },
       backgroundPosition: {
         'custom-position': '50%',
@@ -51,6 +52,7 @@ export default {
       backgroundColor: {
         'custom-lightgray': '#D3D3D3', // equivalent to lightgray
       },
+      
     },
     },
   

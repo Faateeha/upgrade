@@ -3,12 +3,14 @@ import Hero1 from "../assets/hero.png";
 import Arrow from '../assets/arrow-right.png'
 import Fire from "../assets/fire.png";
 
+
 export default function Hero() {
   return (
-    <div className="bg-custom-image bg-custom-lightgray bg-custom-position bg-custom-size bg-no-repeat h-[350px] md:h-[650px] lg:h-[720px] px-8 overflow-hidden">
+    <div className="bg-custom-image bg-custom-lightgray bg-custom-position bg-custom-size bg-no-repeat h-[800px] md:h-[650px] lg:h-[720px] px-8 overflow-hidden">
+       <div className="bg-custom-image2 bg-custom-position bg-custom-size bg-no-repeat h-[800px] md:h-[650px] lg:h-[720px] px-8 overflow-hidden">
       
       <Navbar />
-      <div className="flex mx-[6rem] mt-[6rem]">
+      <div className="flex mx-[6rem] mt-[6rem] justify-center">
         <div className=" md:text-left max-w-lg space-y-4  pl-6 text-white">
         <p className="text-xs font-bold p-1 flex text bg-green-800 rounded-lg  w-max ">
     <img src={Fire} alt="fire" className="w-4 h-4 mr-1 " /> 100% TRUSTED PLATFORM
@@ -32,10 +34,12 @@ export default function Hero() {
             </button>
           </div>
         </div>
-        <div className=" justify-end mt-6">
+        <div className="">
           <img src={Hero1} alt="" />
         </div>
       </div>
+      </div>
+      
     </div>
   );
 }

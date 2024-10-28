@@ -10,7 +10,7 @@ import Pay6 from '../assets/pay6.png'
 export default function Payment() {
     return (
         <div className="bg-green-600">
-         <div className="mx-[6rem] flex py-3 align-middle justify-between">
+         <div className="mx-[6rem] flex py-3 align-middle justify-between overflow-hidden">
             <img src={Pay1} alt="pay1" />
             <img src={Pay2} alt="pay2" />
             <img src={Pay4} alt="pay3" />
