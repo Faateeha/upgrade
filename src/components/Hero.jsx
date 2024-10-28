@@ -11,7 +11,7 @@ export default function Hero() {
       
       <Navbar />
       <div className="flex mx-[6rem] mt-[6rem] justify-center">
-        <div className=" md:text-left max-w-lg space-y-4  pl-6 text-white">
+        <div className=" text-left max-w-lg space-y-4  pl-6 text-white">
         <p className="text-xs font-bold p-1 flex text bg-green-800 rounded-lg  w-max ">
     <img src={Fire} alt="fire" className="w-4 h-4 mr-1 " /> 100% TRUSTED PLATFORM
   </p>
