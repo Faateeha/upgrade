@@ -7,12 +7,12 @@ import Dash2 from "../assets/real.png";
 
 export default function MainContent() {
   return (
-    <div className="mx-[6rem]">
+    <div className="md:mx-[6rem]">
       <p className="text-xs font-bold p-1 mt-8 flex items-center justify-center bg-gray-100 rounded-lg mx-auto  w-max">
         <img src={Fire} alt="fire" className="w-4 h-4 mr-1" /> ABOUT US
       </p>
       <div className="mx-10 my-8 flex flex-col md:flex-row  items-center">
-        <div className="p-4">
+        <div className="md:p-4">
           <img src={Group} alt="group" />
         </div>
         <div className="p-4">
@@ -25,7 +25,7 @@ export default function MainContent() {
       </div>
 
       <div className="mx-4 my-8 flex flex-col md:flex-row space-y-6 md:space-y-0">
-        <div className="w-full md:w-1/2 space-y-4">
+        <div className="w-full md:w-1/2 space-y-4 px-4">
           <p className="text-xs font-bold flex items-center bg-gray-100 rounded-lg p-1 w-max">
             <img src={Fire} alt="fire" className="w-4 h-4 mr-1" /> FEATURED
           </p>
