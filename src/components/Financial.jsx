@@ -14,7 +14,7 @@ import Add from '../assets/add.png'
 export default function Financial() {
   return (
     <>
-      <div className="  mb-12 mx-[6rem]">
+      <div className="  mb-12 mx-6 md:mx-[6rem]">
       <div className="text-center mb-6">
   
   <p className="text-xs font-bold p-1 flex items-center justify-center bg-gray-100 rounded-lg mx-auto  w-max">
@@ -49,7 +49,7 @@ export default function Financial() {
 
 </div>
 
-      <div className="flex flex-col md:flex-row gap-6 px-[6rem] mt-[-2.3rem]">
+      <div className="flex flex-col md:flex-row gap-6 px-6 md:px-[6rem] mt-[-2.3rem]">
   {/* Card Section 1 */}
   <div className="bg-gray-200 p-6 rounded-lg flex-1">
     {/* Icon with rounded top */}
@@ -107,7 +107,7 @@ export default function Financial() {
 </div>
 
 
-    <div className="flex flex-col md:flex-row items-stretch justify-center gap-4 my-5 px-[6rem]">
+    <div className="flex flex-col md:flex-row items-stretch justify-center gap-4 my-5 px-6 md:px-[6rem]">
         
   {/* Dedication Section */}
   <div className="bg-yellow-100 p-6 rounded-lg w-full  flex flex-col justify-between text-center md:text-left h-[200px]">

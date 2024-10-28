@@ -52,7 +52,7 @@ export default function Footer() {
 
 
 
-        <div className=" py-8">
+        <div className="px-6 py-8">
   
 
   <div className="flex flex-col items-center space-y-6">

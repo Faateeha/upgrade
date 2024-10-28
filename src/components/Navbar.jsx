@@ -5,7 +5,7 @@ export default function Navbar() {
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     return (
-        <nav className="py-4 px-6 w-full z-50 ">
+        <nav className="py-4 md:px-6 w-full z-50 ">
           <div className="container mx-auto flex items-center justify-between">
             
             {/* Logo Section */}

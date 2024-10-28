@@ -10,7 +10,7 @@ export default function Hero() {
        <div className="bg-custom-image2 bg-custom-position bg-custom-size bg-no-repeat h-[800px] md:h-[650px] lg:h-[720px] px-8 overflow-hidden">
       
       <Navbar />
-      <div className="flex mx-[6rem] mt-[6rem] justify-center">
+      <div className="flex  mx-6 md:mx-[6rem] mt-[6rem] justify-center">
         <div className=" text-left max-w-lg space-y-4  pl-6 text-white">
         <p className="text-xs font-bold p-1 flex text bg-green-800 rounded-lg  w-max ">
     <img src={Fire} alt="fire" className="w-4 h-4 mr-1 " /> 100% TRUSTED PLATFORM
