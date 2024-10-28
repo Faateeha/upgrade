@@ -29,21 +29,24 @@ export default function Financial() {
 
 <div className="flex flex-col md:flex-row bg-gray-200 p-6 rounded-lg items-center justify-center">
   
-  <div className="relative w-1/2 md:w-[45%] flex justify-center md:justify-start">
-    <img src={Mockup} alt="mockup" className="w-[8rem] md:w-[14rem] h-auto  absolute" />
-    <img src={Mobile} alt="mobile" className="w-[6rem] md:w-[8rem] h-auto relative top-6 left-[7rem]" />
+  {/* Image Section */}
+  <div className="relative w-full md:w-[45%] flex items-center justify-center mb-4 md:mb-0 h-[12rem] md:h-auto">
+    <img src={Mockup} alt="mockup" className="w-[8rem] md:w-[14rem] h-auto absolute" />
+    <img src={Mobile} alt="mobile" className="w-[5rem] md:w-[8rem] h-auto absolute top-6 left-14 md:relative md:top-0 md:left-[3.5rem]" />
   </div>
 
-  
+  {/* Text Section */}
   <div className="w-full md:w-[45%] flex flex-col items-center md:items-start text-center md:text-left mt-6 md:mt-0">
-  
     <div className="bg-green-100 p-2 rounded-full mb-2">
       <img src={World} alt="world" className="w-5 h-5" />
     </div>
     
-    <h2 className="font-bold text-lg lg:text-2xl">Transfers Across The<br/> Globe Are Free</h2>
+    <h2 className="font-bold text-lg lg:text-2xl">
+      Transfers Across The<br/> Globe Are Free
+    </h2>
   </div>
 </div>
+
 </div>
 
       <div className="flex flex-col md:flex-row gap-6 px-[6rem] mt-[-2.3rem]">
@@ -87,7 +90,7 @@ export default function Financial() {
     {/* Dashboard Image with Overlay */}
     <div className="relative">
       <img src={Dashboard} alt="dashboard" className="w-full h-auto rounded-lg" />
-      <div className="bg-white p-4 rounded-lg shadow-lg absolute top-[6rem] right-[1rem] w-40">
+      <div className="bg-white p-4 rounded-lg shadow-lg absolute top-[0.5rem] right-[1rem] w-30 md:w-40">
   <p className="font-semibold text-grey-600">Total Balance</p>
   <p className="text-lg font-bold">$9,647.00</p>
   {/* Add Icon and Text */}
@@ -108,7 +111,7 @@ export default function Financial() {
         
   {/* Dedication Section */}
   <div className="bg-yellow-100 p-6 rounded-lg w-full  flex flex-col justify-between text-center md:text-left h-[200px]">
-    <h1 className="text-2xl font-bold mb-2">
+    <h1 className=" text-sm md:text-xl font-bold ">
       100% <br /> Dedication
     </h1>
     <p className="text-sm">

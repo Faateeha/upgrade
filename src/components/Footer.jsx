@@ -12,13 +12,14 @@ import Arrow from '../assets/arrow-right.png'
 export default function Footer() {
     return (
         <div className='bg-white'>
-<div className="bg-custom-image bg-custom-lightgray bg-custom-position bg-custom-size bg-no-repeat h-[400px] flex items-center justify-center text-white mx-[6rem] my-[10rem] rounded-md">
-  <div className="flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-8 px-4 md:px-4">
+<div className="bg-custom-image bg-custom-lightgray bg-custom-position bg-custom-size bg-no-repeat h-auto md:h-[400px] flex flex-col md:flex-row items-center justify-center text-white mx-4 md:mx-[6rem] my-8 md:my-[15rem] p-4 md:p-0 rounded-md">
+  <div className="flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-8 px-4 md:px-0 w-full">
+    
     {/* Text Section */}
-    <div className="text-center md:text-left max-w-lg space-y-4">
-      <h1 className="text-3xl md:text-4xl font-bold">ARE YOU READY TO START?</h1>
+    <div className=" md:text-left max-w-lg space-y-4 pl-6">
+      <h1 className="text-2xl md:text-4xl font-bold">ARE YOU READY TO START?</h1>
       
-      <p className="text-lg leading-relaxed">
+      <p className="text-base md:text-lg leading-relaxed">
         Personalize your settings, follow your progress, and archive your highlights and notes automatically. Glose is the ultimate reading platform.
       </p>
       
@@ -26,7 +27,7 @@ export default function Footer() {
         {/* Button */}
         <button className="px-6 py-2 bg-green-500 text-white font-semibold rounded-3xl flex items-center space-x-2 relative z-10">
           Get Started
-
+          
           {/* Arrow Image with White Background */}
           <div className="bg-white rounded-full p-2 absolute right-[-1rem] top-1/2 transform -translate-y-1/2">
             <img 
@@ -40,12 +41,14 @@ export default function Footer() {
     </div>
 
     {/* Image Section */}
-    <div className="relative flex items-center md:ml-8">
-      <img src={Mob1} alt="mob1" className="relative w-[150px] md:w-[200px] lg:w-[250px]" />
-      <img src={Mob2} alt="mob2" className="absolute top-[3rem] left-[-2rem] w-[100px] md:w-[150px] lg:h-[21rem] lg:w-[200px]" />
+    <div className="relative flex flex-col items-center space-y-4 md:ml-8 lg:ml-12">
+      <img src={Mob1} alt="mob1" className="relative w-[100px] md:w-[200px] lg:w-[250px]" />
+      <img src={Mob2} alt="mob2" className="relative w-[100px] md:w-[150px] lg:w-[250px] -mt-4 md:mt-0 md:absolute top-[-9rem] left-[-3rem] md:top-[3rem] md:left-[-2rem]" />
     </div>
   </div>
 </div>
+
+
 
 
 

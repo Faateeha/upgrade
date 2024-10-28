@@ -32,7 +32,7 @@ export default function Clients () {
     return (
         <>
 <div className="bg-gray-200 py-6 px-4">
-  {/* Testimonial Label */}
+  
   <div className="flex justify-center mb-2">
     <p className="text-xs font-bold px-2 py-1 bg-gray-100 flex items-center rounded-lg w-max">
       <img src={Fire} alt="fire" className="mr-1" />
@@ -43,8 +43,8 @@ export default function Clients () {
  
   <h1 className="text-center text-2xl font-bold mb-8">GET TO KNOW OUR CLIENTS</h1>
 
-  {/* Client Testimonials Section */}
-  <div className="flex flex-wrap justify-center gap-6 mx-[6rem] ">
+  
+  <div className="flex flex-wrap justify-center gap-12  ">
     {clients.map((client, index) => (
       <div
         key={index}
