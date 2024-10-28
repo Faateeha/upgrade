@@ -1,30 +1,35 @@
 import Fire from "../assets/fire.png";
 import Arrow from '../assets/arrow-right.png'
+import Star from '../assets/staricon.png'
+import icon from '../assets/quote.png'
+import image1 from '../assets/client1.png'
+import image2 from '../assets/client2.png'
+import image3 from '../assets/client3.png'
 
 export default function Clients () {
 
     const clients = [
         {
-            icon: '../src/assets/quote.png',
+            icon: icon,
             testimony: 'I like getting the SMS & knowing the jobs done. I often refer to it, “hope you get a ping today!” because my product',
-            image: '../src/assets/client1.png',
-            star: '../src/assets/staricon.png',
+            image: image1,
+            star: Star,
             name: 'Mike Torello',
             position: 'CEO of Initech'
         },
         {
-            icon: '../src/assets/quote.png',
+            icon: icon,
             testimony: 'We have successfully sold digital product and have happy with the results & look forward to using it again this.',
-            image: '../src/assets/client2.png',
-            star: '../src/assets/staricon.png',
+            image: image2,
+            star: Star,
             name: 'Richards Hawkins',
             position: 'Marketing Manager of Upnow'
         },
         {
-            icon: '../src/assets/quote.png',
+            icon: icon,
             testimony: 'Design Monks offers producers a cost-effective selling tool. Having the ability to post prices that you want on an exchange visible .',
-            image: '../src/assets/client3.png',
-            star: '../src/assets/staricon.png',
+            image: image3,
+            star: Star,
             name: 'Thomas Magnum',
             position: 'Barellon NSW'
         }
